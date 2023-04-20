@@ -4,21 +4,138 @@
     box-sizing: border-box;
 }
 
-.row-100 {
+.container {
     width: 100%;
+}
+
+.row {
+    width: calc(100%);
+    display: flex;   
+}
+
+.col {
+    width: calc(100% / 3);
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(56, 9, 99);
+}
+/* inizio JAMBO */
+.jambotron {
+    width: 100%;
+    background-color: grey;
+    height: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.container-jambo {
+    width: calc(80%);
+    background-color: rgb(226, 186, 7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col-2, .col-3 {
+ height: 400px;
 }
 
 .col-2 {
-    width: calc(50% - 20px);
+    width: calc(30%);
+    background-color: aqua;
+}
+.col-3 {
+    width: calc(70%);
+    background-color: rgb(60, 60, 195);
+}
+/* FINE header */
+.container-1 {
+    width: 100%;
     display: flex;
+    justify-content: center;
+}
+.row-75 {
+    width: calc(75%);
+    background-color: rgb(14, 243, 56);
+    height: 200px;  
+    border: 1px solid black;
+}
+
+/* fine contenitore con titolo */
+.container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: calc(75%);
+    background-color: rgb(14, 243, 56);   
+    display: flex;
+}
+
+.tab-text {
+    height: 800px;
+    border: 1px solid black;
+}
+/* FINE contenitore due righe e 3 colonne in mezzo */
+
+.col-400 {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: rgb(125, 162, 182);
+    border: 1px dashed black;
+}
+.container-sfondo {
+    background-color: rgb(96, 140, 163);
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.col-3-small, .col-2-small {
+    height: 250px;
+}
+
+
+.container-question {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(186, 186, 80);
+}
+.content-questions {
+    margin: 50px;
+    height: 400px; 
+}
+
+/* FOOTER */
+.container-black{
+    width: 100%;
+    background-color: black;   
+    display: flex;
+    justify-content: center;
+    padding: 30px; 
+    color: white;  
+}
+.row-black {
+    width: calc(80%);
+    background-color: rgb(40, 35, 35);
+    display: flex;
+    justify-content: center;    
+}
+
+.col-black {
+    width: calc(100% / 5);
+    height: 300px;
+    border: 1px solid white;
+}
+
+.row-black-2 {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.up-border {
     padding: 20px;
-
+    border: 1px solid white;
 }
-.between {
-    display: flex;
-    
-
-}
-
