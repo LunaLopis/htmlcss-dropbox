@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -13,35 +20,188 @@
     <header>
         <div class='container'>
             <div class='row'>
-                 <div class='col'></div>
-                 <div class='col'></div>
-                 <div class='col'></div>
+                <div class='col'>
+                    <div class="row">
+                        <div class="col logo">
+                            <img class="logo-img" src="./img/logo-small.png" alt="">
+                        </div>
+                        <div class="col sez-1">
+                            <span>Perchè Dropbox</span>
+                            <span>Funzioni</span>
+                            <span>Prezzi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col text-right'>
+                    <span>Supporto</span>
+                    <span>Contatta l'ufficio vendite</span>
+                    <span>Accedi</span>
+                    <button class="back-blue-butt start-butt" type="button">Inizia</button>
+                </div>
             </div>
         </div>
-        <div class="jambotron flex-wrap"> 
-            <div class="row-80 back-lightblue"></div>
-            <div class="container-jambo back-lightblue">              
-                    <div class="col-2 back-lightblue"></div>
-                    <div class="col-3 back-lightblue"></div> 
-            </div>          
+        <div class="jambotron flex-wrap back-lightblue">
+            <div class="row-80 back-lightblue">
+                <h1 class="title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+            </div>
+            <div class="container-jambo back-lightblue">
+                <div class="col-2 back-lightblue">
+                    <div class="padding-10">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente
+                            e
+                            integrato per ottimizzare il flusso di lavoro esistente
+                        </p>
+                    </div>
+                    <div class="padding-10">
+                        <button class="back-blue-butt start-butt" type="button">Inizia la prova gratuita</button>
+                    </div>
+                    <div class="padding-10">
+                        <span>Annulla in qualsiasi momento</span>
+                    </div>
+                </div>
+                <div class="col-3 back-lightblue">
+                    <img class="img-jumbo" src="./img/jumbo.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
     <main>
         <div class="container-1">
-            <div class="row-75"></div>
+            <div class="row-75">
+                <div>
+                    <h2>Trova il piano business che fa per te</h2>
+                </div>
+                <div class="fatturazione">
+                    <span><i class="fa-sharp fa-solid fa-circle-dot" style="color: #168eb6;"></i></span>
+                    <label for="">Fatturazione mensile</label>
+                    <span><i class="fa-sharp fa-solid fa-circle-dot" style="color: #168eb6;"></i></span>
+                    <label for="">Fatturazione annuale</label>
+                </div>
             </div>
+        </div>
         </div>
         <div class="container-2">
             <div class="content">
-                <div class='col tab-text'></div>
-                <div class='col tab-text'></div>
-                <div class='col tab-text'></div>
-            </div>       
+                <!-- prima colonna tabella -->
+                <div class='col tab-text'>
+                    <div class="prima-riga">
+                        <span><i class="fa-solid fa-user" style="color: #010509;"></i></span>
+                        <span>Singolo</span>
+                    </div>
+                    <div class="seconda-riga">
+                        <h2>Professional</h2>
+                    </div>
+                    <div class="terza-riga">
+                        <h4>&euro;18.00</h4>
+                    </div>
+                    <div class="terza-riga">
+                        <span>/mese</span>
+                    </div>
+                    <div class="quinta-riga">
+                        <ul>
+                            <li><span><i class="fa-solid fa-users" style="color: #000000;"></i></span>
+                                <span>3 o più utenti</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-folder" style="color: #000205;"></i></span>
+                                <span>tutto lo spazio di cui ha bisogno il tuo team</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>
+                                <span>funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </li>
+                            <li>
+                                <button class="back-blue-butt prova-30gg" type="button">Prova gratis per 30 giorni</button>
+                            </li>
+                            <li>
+                               <span>oppure aqcuista ora</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- seconda colonna tabella -->
+                <div class='col tab-text'>
+                    <div class="prima-riga">
+                        <span><i class="fa-solid fa-users" style="color: #000000;"></i></span>
+                        <span>Team</span>
+                    </div>
+                    <div class="seconda-riga">
+                        <h2>Advanced</h2>
+                    </div>
+                    <div class="terza-riga ">
+                        <h4>&euro;12.00</h4>
+                    </div>
+                    <div class="terza-riga ">
+                        <span>/utente/mese</span>
+                    </div>
+                    <div class="quinta-riga">
+                        <ul>
+                            <li><span><i class="fa-solid fa-users" style="color: #000000;"></i></span>
+                                <span>3 o più utenti</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-folder" style="color: #000205;"></i></span>
+                                <span>tutto lo spazio di cui ha bisogno il tuo team</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>
+                                <span>funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </li>
+                            <li>
+                                <button class="back-blue-butt prova-30gg" type="button">Prova gratis per 30 giorni</button>
+                            </li>
+                            <li>
+                                <span>oppure aqcuista ora</span>
+                             </li>
+                        </ul>
+                    </div>                   
+                </div>
+                <!-- terza colonna tabella -->
+                <div class='col tab-text'>
+                    <div class="prima-riga">
+                        <span><i class="fa-sharp fa-solid fa-building" style="color: #000205;"></i></span>
+                        <span>Azienda</span>
+                    </div>
+                    <div class="seconda-riga ">
+                        <h2>Enterprise</h2>
+                    </div>
+                    <div class="terza-riga ">
+                        <h4>Contattaci</h4>
+                    </div>
+                    <div class="terza-riga ">
+                        <span>-</span>
+                    </div>
+                    <div class="quinta-riga">
+                        <ul>
+                            <li><span><i class="fa-solid fa-users" style="color: #000000;"></i></span>
+                                <span>3 o più utenti</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-folder" style="color: #000205;"></i></span>
+                                <span>tutto lo spazio di cui ha bisogno il tuo team</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-share-nodes" style="color: #000000;"></i></span>
+                                <span>funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </li>
+                            <li>
+                                <button class="back-blue-butt prova-30gg" type="button">Prova gratis per 30 giorni</button>
+                            </li>
+                            <li>
+                                <span>oppure aqcuista ora</span>
+                             </li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
         </div>
         <!-- team e enterprise -->
         <div class="container-1">
             <div class="row-20"></div>
-            </div>
+        </div>
         </div>
         <div class="container-2">
             <div class="content">
@@ -54,34 +214,33 @@
                 <div class='col tab-text'></div>
                 <div class='col tab-text'></div>
                 <div class='col tab-text'></div>
-            </div>       
+            </div>
         </div>
         <div class="container-1">
             <div class="row-75"></div>
-            </div>
         </div>
-
+        </div>
         <!-- container con loghi -->
         <div class='container'>
             <div class='row'>
-                 <div class='col-33'>
+                <div class='col-33'>
                     <div class="row height-100 flex-wrap">
                         <div class="col-50 back-black"></div>
                         <div class="col-50 back-green"></div>
                         <div class="col-50 back-pink"></div>
                         <div class="col-50 back-red"></div>
                     </div>
-                 </div>
-                 <div class='col-33'>
-                 </div>
-                 <div class='col-33'>
+                </div>
+                <div class='col-33'>
+                </div>
+                <div class='col-33'>
                     <div class="row height-100 flex-wrap">
                         <div class="col-50 back-black"></div>
                         <div class="col-50 back-green"></div>
                         <div class="col-50 back-pink"></div>
                         <div class="col-50 back-red"></div>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
         <!-- container con pulsante inzia prova gratuita -->
@@ -112,7 +271,7 @@
         </div>
         <div class="container-black">
             <div class="row-black-2">
-                <h4 class="up-border">Italiano</h4>               
+                <h4 class="up-border">Italiano</h4>
             </div>
         </div>
 
