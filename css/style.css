@@ -51,6 +51,13 @@
     padding: 0.5vw;
 }
 
+.inizia {
+    align-items: flex-start;
+    padding: 0.2vw 1.5vw 0.2vw 1.5vw;
+    font-size: 16px;
+    border: none;
+}
+
 /* Stili */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -73,20 +80,20 @@ body {
     padding-bottom: 1vw;
 }
 
-.padding-1-5 {
-    padding: 1.5vw;
-}
-
-.padding-10 {
-    padding: 1vw;
-}
-
 .padding-20 {
     padding: 2vw;
 }
 
 .padding-2 {
     padding: 1.5vw 2vw 1vw 2vw;
+}
+
+.padding-3 {
+    padding: 3vw;
+}
+
+.padding-3-1 {
+    padding: 3vw 3vw 1vw 3vw;
 }
 
 .padding-40 {
@@ -126,13 +133,10 @@ body {
     color: blue;
 }
 
-.padding-30 {
-    padding: 3vw 3vw 1vw 3vw;
-}
-
 .border-black {
     border: 1px solid black;
 }
+
 .border-grey {
     border: 1px solid lightgrey;
 }
@@ -158,7 +162,6 @@ body {
 .row-80 {
     width: 80%;
     display: flex;
-    padding: 2vw;
 }
 
 .container-jambo {
@@ -193,12 +196,16 @@ body {
 
 .row-75 {
     width: 75%;
-    /* height: 10vw; */
     margin-top: 5vw;
 }
 
 .fatturazione {
     padding-top: 3vw;
+    display: flex;
+}
+
+.fatturazione>.select-1 {
+    margin-right: 30px;
 }
 
 .row-20 {
@@ -261,7 +268,7 @@ li {
     display: flex;
 }
 
-li> span {
+li>span {
     padding: 0vw 0.5vw 0vw 0vw;
 }
 
@@ -322,10 +329,6 @@ li> span {
     justify-items: center;
 }
 
-.small {
-    height: 100%;
-}
-
 .container-4 {
     width: 100%;
     display: flex;
@@ -383,6 +386,10 @@ li> span {
     color: white;
 }
 
+.back-lightgrey-2 {
+    background-color: rgba(245, 245, 245, 255);
+}
+
 /* LOGHI */
 .white-filter {
     filter: invert(100%);
@@ -434,10 +441,6 @@ li> span {
     padding: 2vw 2vw 3vw 2vw;
 }
 
-.testo-loghi {
-    padding: 2vw;
-}
-
 /* container prova gratuita sfondo azzurro */
 .sez-2 {
     display: flex;
@@ -462,6 +465,20 @@ li> span {
     font-size: 16px;
 }
 
-.col-black > h4 {
+.col-black>h4 {
     padding-bottom: 2vw;
+}
+
+.question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-absolute-jambo {
+    max-width: 60%;
+    max-height: 100%;
+    position: absolute;
+    bottom: 10;
+    left: 20;
 }
