@@ -15,7 +15,6 @@
 
 .col {
     width: calc(100% / 2);
-    /* height: calc(4vw); */
 }
 
 .logo {
@@ -90,6 +89,10 @@ body {
     padding: 1.5vw 2vw 1vw 2vw;
 }
 
+.padding-40 {
+    padding: 4vw;
+}
+
 .padding-bottom-15 {
     padding-bottom: 1.5vw;
 }
@@ -114,6 +117,10 @@ body {
     margin-top: 5vw;
 }
 
+.margin-top-10 {
+    margin-top: 10vw;
+}
+
 .blue-underline {
     text-decoration: underline;
     color: blue;
@@ -122,9 +129,14 @@ body {
 .padding-30 {
     padding: 3vw 3vw 1vw 3vw;
 }
+
 .border-black {
     border: 1px solid black;
 }
+.border-grey {
+    border: 1px solid lightgrey;
+}
+
 .border-solid {
     border-bottom: 1px solid grey;
     padding-bottom: 3vw;
@@ -159,18 +171,13 @@ body {
     width: 100%;
 }
 
-/* .col-2,
-.col-3 {
-    border: 1px solid black;
-} */
-
 .col-2 {
     width: calc(30vw);
 }
 
 .arrow-down {
-    font-size: 25px;
-    padding-top: 2vw;
+    font-size: 50px;
+    padding-top: 5vw;
 }
 
 .col-3 {
@@ -185,7 +192,7 @@ body {
 }
 
 .row-75 {
-    width: calc(75% - 4vw);
+    width: 75%;
     /* height: 10vw; */
     margin-top: 5vw;
 }
@@ -207,16 +214,23 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.content-first {
+    width: calc(75% + 4vw);
+    display: flex;
+}
+
 .content {
     width: 75%;
     display: flex;
 }
+
 .tab-text {
     margin: 2vw;
 }
 
 .prima-riga {
-    border: 1px solid;
+    border: 1px solid lightgrey;
     text-align: center;
     padding: 1vw;
 }
@@ -247,13 +261,15 @@ li {
     display: flex;
 }
 
-li>span {
+li> span {
     padding: 0vw 0.5vw 0vw 0vw;
 }
+
 .ottava-riga {
     text-align: center;
     padding: 3vw;
 }
+
 .prova-30gg {
     padding: 0.2vw 5vw 0.2vw 5vw;
     font-size: 16px;
@@ -321,7 +337,6 @@ li>span {
     margin: 50px;
 }
 
-
 /* FOOTER */
 .container-black {
     width: 100%;
@@ -358,6 +373,7 @@ li>span {
 .back-lightblue {
     background-color: rgba(180, 208, 231, 255);
 }
+
 .back-black {
     background-color: black;
 }
@@ -367,10 +383,11 @@ li>span {
     color: white;
 }
 
-/* colori sfondi loghi */
+/* LOGHI */
 .white-filter {
-   filter: invert(100%);
+    filter: invert(100%);
 }
+
 .back-moss-green {
     background-color: rgba(162, 211, 155, 255);
     padding: 10px;
@@ -410,6 +427,17 @@ li>span {
     background-color: rgba(255, 216, 48, 255);
     padding: 10px;
 }
+
+.small-image {
+    max-width: 60%;
+    height: auto;
+    padding: 2vw 2vw 3vw 2vw;
+}
+
+.testo-loghi {
+    padding: 2vw;
+}
+
 /* container prova gratuita sfondo azzurro */
 .sez-2 {
     display: flex;
@@ -417,18 +445,23 @@ li>span {
     color: rgba(97, 8, 43, 255);
     font-size: 20px;
 }
+
 .position-center {
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
+
 .sez-3 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .free-trial {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 16px;
 }
 
-
+.col-black > h4 {
+    padding-bottom: 2vw;
+}
